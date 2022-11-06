@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV-BAR */
+
+.topnav {
+    overflow: hidden;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+img.LOGO {
+    width: auto;
+    height: 42px;
+    padding: 5px;
+}
+
+.topnav .nav-right a {
+    float: left;
+    color: #313131;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.topnav a.active {
+    background-image: linear-gradient(135deg, #2b90e6 40%, #6d3de9);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.topnav a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* REGISTRATION AND LOGIN FORMS */
+
+.container{
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 680px;
+    padding-top: 50px;
+}
+
+.form-container form {
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;;
+    padding: 30px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 11px 10px 15px -17px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 11px 10px 15px -17px rgba(66, 68, 90, 1);
+    box-shadow: 11px 10px 15px -17px rgba(66, 68, 90, 1);
+}
+
+.login form {
+    width: 370px;
+}
+
+.registration form {
+    width: 600px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+    width: 270px;
+}
+
+.registration .form-group {
+
+}
+
+.form-button {
+    background-image: linear-gradient(135deg, #2b90e6 40%, #6d3de9);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 15px;
+    border: none;
+}
+
+.reg-btn {
+    margin-top: 25px;
+    padding: 10px 55px;
+}
+
+.form-button:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.form-button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+
+
+#id_username #id_password {
+    width: 100px;
+    height: 50px;
+}

@@ -1,0 +1,14 @@
+<!--nav-bar visible after user authenticated-->
+
+<div class="topnav">
+    <div class="nav-left">
+        {% load static %}
+        <a href="{% url 'index' %}"><img class='LOGO' src="{% static "img/SIMPLE_LOGO_2.png" %}" alt="LOGO"></a>
+
+    </div>
+    <div class="nav-right">
+        <a  href="{% url 'index' %}">Home</a>
+        <a class="active" href="{% url 'logout' %}">Wyloguj</a>
+    </div>
+
+</div>
